@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^3.0.1",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@next/font": "^14.2.15",
     "@tabler/icons-react": "^3.19.0",
     "aether-ui": "^1.0.0",
     "clsx": "^2.1.1",

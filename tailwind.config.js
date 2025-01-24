@@ -13,6 +13,9 @@ module.exports = {
       animation: {
         aurora: "aurora 60s linear infinite",
       },
+      fontFamily: {
+        "lato": ["Lato", "sans-serif"],
+      },
       keyframes: {
         aurora: {
           from: {

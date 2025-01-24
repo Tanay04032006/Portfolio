@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="overflow-auto">
-        <div className="flex justify-between items-center p-4">
+        <div className="flex justify-between items-center ">
           <div className="fixed top-[2vh] left-[90vw] z-10">
             <Link
               href="/projects"
@@ -20,12 +20,11 @@ export default function RootLayout({ children }) {
               </span>
             </Link>
           </div>
-          <div>
-            <Link 
-            href={"/"}
-            className="flex items-center justify-center">
-            <FaHome size={33} color="" />  
-            </Link>
+          <div className="fixed top-[2vh] left-[2vw] z-10"> 
+          <Link href={"/"} className="flex items-center justify-center">
+  <FaHome size={33} color="red" />
+</Link>
+
           </div>
         </div>
         {/* Pass navItems directly in the Navbar component */}
